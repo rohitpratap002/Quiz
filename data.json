@@ -1,0 +1,184 @@
+ [
+    [
+        {
+            "sno":"0",
+            "name":"Core Java Programming",
+            "desc":"Learn competitive and technical JAVA programming mcq questions and answers with easy and logical explanations.",
+            "img":"./img/java.png",
+            "id":"java"
+        },
+        {
+            "sno":"1",
+            "name":"Hyper Text Markup Language (HTML)",
+            "desc":"HTML is an abbreviation for HyperText Markup Language. It is the standard go-to language to make web pages and is used to make the general structure of a website/webpage.",
+            "img":"./img/html.jpg",
+            "id":"html"
+        }
+    ],
+    [
+        [
+            {
+                "que": "Number of primitive data types in Java are?",
+                "a": "6",
+                "b": "7",
+                "c": "8",
+                "d": "9",
+                "ans": "opt3"
+            },
+            {
+                "que": "What is the size of float and double in java?",
+                "a": "32 and 64",
+                "b": "32 and 32",
+                "c": "64 and 64",
+                "d": "64 and 32",
+                "ans": "opt1"
+            },
+            {
+                "que": "Automatic type conversion is possible in which of the possible cases?",
+                "a": "Byte to int",
+                "b": "Int to long",
+                "c": "Long to int",
+                "d": "Short to int",
+                "ans": "opt4"
+            },
+            {
+                "que": "Select the valid statement.",
+                "a": "char[] ch = new char(5)",
+                "b": "char[] ch = new char[5]",
+                "c": "char[] ch = new char()",
+                "d": "char[] ch = new char[]",
+                "ans": "opt2"
+            },
+            {
+                "que": "When an array is passed to a method, what does the method receive?",
+                "a": "A copy of the array",
+                "b": "Length of the array",
+                "c": "Reference of the array",
+                "d": "Copy of first element",
+                "ans": "opt3"
+            },
+            {
+                "que": "Who invented Java Programming?.",
+                "a": "Guido van Rossum",
+                "b": "James Gosling",
+                "c": "Dennis Ritchie",
+                "d": "Bjarne Stroustrup",
+                "ans": "opt2"
+            },
+            {
+                "que": "Which statement is true about Java?",
+                "a": "Java is a sequence-dependent programming language",
+                "b": "Java is a code dependent programming language",
+                "c": "Java is a platform-dependent programming language",
+                "d": "Java is a platform-independent programming language",
+                "ans": "opt4"
+            },
+            {
+                "que": "Which environment variable is used to set the java path?",
+                "a": "MAVEN_Path",
+                "b": "JavaPATH",
+                "c": "JAVA",
+                "d": "JAVA_HOME",
+                "ans": "opt4"
+            },
+            {
+                "que": "Which of the following is not an OOPS concept in Java?",
+                "a": "Polymorphism",
+                "b": "Inheritance",
+                "c": "Compilation",
+                "d": "Encapsulation",
+                "ans": "opt3"
+            },
+            {
+                "que": " What is the extension of compiled java classes?",
+                "a": ".txt",
+                "b": ".js",
+                "c": ".class",
+                "d": ".java",
+                "ans": "opt3"
+            }
+        ],
+        [
+            {
+                "que": "HTML stands for -",
+                "a": "HighText Machine Language",
+                "b": "HyperText and links Markup Language",
+                "c": "HyperText Markup Language",
+                "d": "None of these",
+                "ans": "opt3"
+            },
+            {
+                "que": "The correct sequence of HTML tags for starting a webpage is -",
+                "a": "Head, Title, HTML, body",
+                "b": "HTML, Body, Title, Head",
+                "c": "HTML, Head, Title, Body",
+                "d": "HTML, Head, Title, Body",
+                "ans": "opt4"
+            },
+            {
+                "que": "How to insert an image in HTML?",
+                "a": "&lt;img href = \"jtp.png\" /&gt;",
+                "b": "&lt;img url = \"jtp.png\" /&gt;",
+                "c": "&lt;img link = \"jtp.png\" /&gt;",
+                "d": "&lt;img src = \"jtp.png\" /&gt;",
+                "ans": "opt4"
+            },
+            {
+                "que": "Which of the following tag is used to add rows in the table?",
+                "a": "&lt;td&gt; and &lt;/td&gt;",
+                "b": "&lt;th&gt; and &lt;/th&gt;",
+                "c": "&lt;tr&gt; and &lt;/tr&gt;",
+                "d": "None of the above",
+                "ans": "opt3"
+            },
+            {
+                "que": "Which character is used to represent the closing of a tag in HTML?",
+                "a": "\\",
+                "b": "!",
+                "c": "/",
+                "d": ".",
+                "ans": "opt3"
+            },
+            {
+                "que": "&lt;input&gt; is -",
+                "a": "a format tag.",
+                "b": "an empty tag.",
+                "c": "All of the above",
+                "d": "None of the above",
+                "ans": "opt2"
+            },
+            {
+                "que": "HTML tags are enclosed in-",
+                "a": "# and #",
+                "b": "{ and }",
+                "c": "&lt; and &gt;",
+                "d": "! and ?",
+                "ans": "opt3"
+            },
+            {
+                "que": " Which of the following attribute is used to provide a unique name to an element?",
+                "a": "class",
+                "b": "id",
+                "c": "type",
+                "d": "None of the above",
+                "ans": "opt2"
+            },
+            {
+                "que": "Which of the following HTML tag is the special formatting tag?",
+                "a": "&lt;p&gt;",
+                "b": "&lt;b&gt;",
+                "c": "&lt;pre&gt;",
+                "d": "None of the above",
+                "ans": "opt3"
+            },
+            {
+                "que": "Which of the following is the correct way to send mail in HTML?",
+                "a": "&lt;a href='mailto:xy@z'&gt;",
+                "b": "&lt;a href='xy@z'&gt;",
+                "c": "&lt;mail&gt; xy@z&lt;/mail&gt;",
+                "d": "None of the above",
+                "ans": "opt1"
+            }
+        ]
+    ]
+]

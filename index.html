@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/6877246feb.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="FirstLaunchh">
+        <nav id="navbar">
+            <div class="logo" id="logo">Quiz Show</div>
+        </nav>
+        <div class="homeSec fluid" id="homeSec">
+            <div class="container home">
+                <div class="homeCenter">
+                    <h1 class="homeH1">Welcome, to Quiz Show</h1>
+                    <p class="homeP">Find Different Quizs in One Place. Take our short quiz to learn which is the right career for you.
+                    </p>
+                    <!-- <div class="searchBox">
+                        <input type="search" name="search" id="inputSearch" placeholder="Search your Quiz">
+                        <button class="btn-sbmt" id="searchBtn">Search</button>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+        <div class="quizSec fluid" id="quizSec">
+            <div class="container quiz">
+                <h1 class="quizh1">Choose A Quiz</h1>
+                <div id="quizlevel">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="queSec fluid" id="queSec">
+        <div class="container queCenter">
+            <button id="exit"><i class="fas fa-sign-out-alt"></i></button>
+            <div class="question">
+                <h1 class="ques"> <span id="quesNo"></span><span id="ques"></span></h1>
+                <h3 id="queNo"></h3>
+            </div>
+            <input type="radio" name="answer" class="option" id="opt1">
+            <label for="opt1" class="optionLabel" id="op1"></label>
+            <input type="radio" class="option" name="answer" id="opt2">
+            <label for="opt2" class="optionLabel" id="op2"></label>
+            <input type="radio"  class="option" name="answer" id="opt3">
+            <label for="opt3" class="optionLabel" id="op3"></label>
+            <input type="radio" class="option" name="answer" id="opt4">
+            <label for="opt4" class="optionLabel" id="op4"></label>
+            <div class="queBtn">
+                <button class="btn btn-nxt" id="prvsBtn">Previous</button>
+                <button class="btn btn-nxt" id="nextBtn">Next</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="queSec fluid" id="scoreSec">
+        <div class="container scoreCenter">
+            <h1>You Scored <span id="score"></span>.</h1>
+            <h2 id="ScoreTip">You are doing great. Keep it Up.</h2>
+            <div class="queBtn">
+                <button id="ShowBtn" class="btn-nxt">Show Answers</button>
+                <button id="resetBtn" class="btn-nxt">Restart</button>
+            </div>
+        </div>
+    </div>
+    <div class="ansSec fluid" >
+        <div class="container scoreCenter" id="answerSec"></div>
+    </div>
+
+    <script src="./index.js" type="module"></script>
+</body>
+</html>
